@@ -81,19 +81,10 @@ footer{
 /*==================================================
                      Pagina Principal
 ==================================================*/
-#container{
-    width: 70%;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-}
-
-#clubes{
+ 
+#clubes h2{
     text-align: center;
-}
-
-#container div{
-    margin: 10px;
-    text-align: center;
+    font-size: 50px;
 }
 
 #volver{
@@ -102,13 +93,35 @@ footer{
     right: 20px;
 }
 
-div svg{
+#volver svg{
     color: white;
 }
-#aside{
-    width: 30%;
+
+#contenedor{
+    width: 100%;
+    display: flex;
 }
 
-footer{
-    clear: left;
+div img{
+    width: 300px;
+    height: 350px;
+}
+
+#aside{
+    width: 25%;
+    border-left: 2px solid white;
+}
+
+#aside h3{
+    text-align: center;
+}
+
+#aside p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#aside img{
+    margin-left: 5%;
 }

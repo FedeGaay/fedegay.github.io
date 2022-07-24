@@ -9,7 +9,7 @@
 ==================================================*/
 
 body{
-    background-color: rgb(4, 0, 212);
+    background-image: url(imagenfondo.jpg);
     width: 100%;
     height: 100%;
     color: white;
@@ -28,10 +28,27 @@ header{
 }
 
 #logo{
+    margin-left: -200px;
     width: 200px;
     height: 100px;
     padding-top: 10px;
     margin-left: 25px;
+}
+
+.navbar{
+    background-color:  #00098d;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.collapse{
+    background-color: #00098d;
+}
+
+.nav-link{
+    color: white;
 }
 
 .enlace{
@@ -90,12 +107,26 @@ footer{
 
 #volver{
     position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+#whatsapp{
+    position: fixed;
     bottom: 20px;
     right: 20px;
 }
 
 #volver svg{
     color: white;
+}
+
+.forma{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
 }
 
 #contenedor{
@@ -110,12 +141,16 @@ div img{
 
 #aside{
     width: 25%;
+    height: 40%;
     border-left: 2px solid white;
     border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: #00098d;
 }
 
 #aside h3{
     text-align: center;
+    margin-top: 5%;
 }
 
 #aside p{
@@ -126,4 +161,23 @@ div img{
 
 #aside img{
     margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/*==================================================
+                     Formulario
+==================================================*/
+
+form{
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(4, 0, 212);
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid white;
+}
+
+form h1{
+    margin-bottom: 20px;
+    text-align: center;
 }

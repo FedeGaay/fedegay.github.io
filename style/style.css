@@ -261,6 +261,9 @@ td img{
 }
 
 .col-8{
-    margin-left: -150px;
+    margin-bottom: 20px;
 }
 
+.list-group{
+    width: 50%;
+}

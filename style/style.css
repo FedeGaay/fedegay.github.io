@@ -14,6 +14,9 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(rgba(16,16,16,0.7),rgba(16,16,16,0.7)), url(../media/img/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
 }
 
 header{
@@ -87,7 +90,8 @@ footer{
 #clubes h2{
     text-align: center;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #volver{
@@ -96,10 +100,28 @@ footer{
     right: 20px;
 }
 
+#volver:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #0112f6;
+    border-radius: 100%;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 #whatsapp{
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+#whatsapp:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #00ff04;
+    border-radius: 100%;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 #volver svg{
@@ -114,11 +136,6 @@ footer{
     padding: 5px;
 }
 
-div img{
-    width: 300px;
-    height: 350px;
-}
-
 #main{
     width: 75%;
     height: 100%;
@@ -131,7 +148,7 @@ div img{
     height: 1200px;
     background-color: #00098d78;
     float: right;
-    margin-top: -3770px;
+    margin-top: -3250px;
 }
 
 #aside h3{
@@ -161,10 +178,27 @@ a h6{
 
 .col{
     text-align: center;
+    opacity: 0.7;
+}
+
+.col:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 a{
     text-decoration: none;
+}
+
+.col img{
+    width: 250 px;
+    height: 300px;
+    box-shadow: 0px 0px 6px rgb(14, 19, 239);
+}
+
+.col img:hover{
+    box-shadow: 0px 0px 5px 2px;
 }
 
 .redcaja{
@@ -196,7 +230,25 @@ form h1{
 }
 
 #botones{
-    margin-left: 40%;
+    margin-left: 25%;
+}
+
+.btn2{
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.btn2:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #383fa7;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 /*==================================================
